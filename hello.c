@@ -2,7 +2,10 @@
 
 int main( void )
 {
-	printf( "Hello Misaki !!" );
-
+	int n;
+	
+	printf("number:");
+	scanf("%d",&n);
+	printf("number is %d",n);
 	return 0;
 }
